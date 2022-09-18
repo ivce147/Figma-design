@@ -1,0 +1,66 @@
+.contact-page{
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+}
+.contact{
+    position: relative;
+    width: 50%;
+}
+.contact-girl{
+    position: absolute;
+    top: 0;
+    left: -10%;
+}
+.contact-girl > h1{
+    position: absolute;
+    width: 95px;
+    color: #ffffff;
+    top: 10%;
+    right: 12%;
+    font-size: 40px;
+    text-align: left;
+}
+.contact-text{
+    position: absolute;
+    width: 207px;
+    font-size: 20px;
+    text-align: left;
+    color: #ffffff;
+    bottom: 40%;
+    right: -5%;
+}
+
+.contact1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+input{
+    height: 73px;
+}
+textarea{
+    width: 500px;
+    height: 229px;
+}
+.thanks{
+    padding: 20px;
+    border-radius: 50%;
+    text-decoration: underline;
+}
+.thanks:hover{
+    border: 30px solid rgb(213, 46, 107);
+    padding: 20%;
+    transition: 1.6s ease-in-out;
+}
+.btn-submit{
+    border: none;
+    height: 40px;
+}

@@ -1,0 +1,16 @@
+.favorites{
+    width: 100%;
+}
+.cart-favorites{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.photo-favorite > img{
+    width: 100px;
+    height: 60px;
+    margin-top: 20px;
+}
+.btn-favorite{
+    background-color: red;
+}

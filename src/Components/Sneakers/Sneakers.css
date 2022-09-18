@@ -1,0 +1,31 @@
+.sneakers-color{
+    background-color: #40BFFF;
+    height: 600px;
+    position: relative;
+}
+.sneakers{
+    position: absolute;
+    right: 0;
+    bottom: 15%;
+}
+.sneakers-screen{
+    padding-top: 220px;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+.sneakers-text{
+    color: #ffffff;
+    text-align: left;
+    width: 592px;
+    height: 274px;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+.sneakers-button{
+    border: none;
+    background-color: #40BFFF;
+    color: #ffffff;
+    border-bottom-width: 20px;
+    border-bottom: 2px solid #ffffff;
+    font-weight: 600;
+}

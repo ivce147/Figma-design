@@ -1,0 +1,52 @@
+.product{
+    width: 20%;
+    height: 380px;
+    border-radius: 10px; 
+    background-color: grey;
+    position: relative;
+    margin: 2%;
+    margin-bottom: 2%;
+}
+.product > img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.product .hot {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 12;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-menu-cover {
+   position: absolute;
+   background-color: black;
+   width: 100%;
+   height: 100%;
+   top:0;
+   left:0;
+   opacity: 0.9;
+   display: none; 
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+
+.product:hover .product-menu-cover{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

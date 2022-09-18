@@ -1,0 +1,15 @@
+.button-border > button{
+    background-color: rgb(139, 87, 87);
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+.button-border{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(139, 87, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

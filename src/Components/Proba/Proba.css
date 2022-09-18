@@ -1,0 +1,13 @@
+.page-numbers{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+    gap: 5px;
+}
+.products{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}

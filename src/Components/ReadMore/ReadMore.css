@@ -1,0 +1,14 @@
+.extra-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.readmore{
+    color:rgba(51, 160, 255, 1);
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(235, 208, 208);
+    text-decoration: underline;
+    margin-top: 20px;
+}
